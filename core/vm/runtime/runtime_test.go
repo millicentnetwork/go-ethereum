@@ -21,12 +21,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts/abi"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/core/state"
-	"github.com/Fantom-foundation/go-ethereum/core/vm"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/millicentnetwork/go-ethereum/accounts/abi"
+	"github.com/millicentnetwork/go-ethereum/common"
+	"github.com/millicentnetwork/go-ethereum/core/rawdb"
+	"github.com/millicentnetwork/go-ethereum/core/state"
+	"github.com/millicentnetwork/go-ethereum/core/vm"
+	"github.com/millicentnetwork/go-ethereum/params"
 )
 
 func TestDefaults(t *testing.T) {

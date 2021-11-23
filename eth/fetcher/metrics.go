@@ -19,7 +19,7 @@
 package fetcher
 
 import (
-	"github.com/Fantom-foundation/go-ethereum/metrics"
+	"github.com/millicentnetwork/go-ethereum/metrics"
 )
 
 var (

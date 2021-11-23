@@ -23,11 +23,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/ethdb"
-	"github.com/Fantom-foundation/go-ethereum/ethdb/leveldb"
-	"github.com/Fantom-foundation/go-ethereum/ethdb/memorydb"
-	"github.com/Fantom-foundation/go-ethereum/log"
+	"github.com/millicentnetwork/go-ethereum/common"
+	"github.com/millicentnetwork/go-ethereum/ethdb"
+	"github.com/millicentnetwork/go-ethereum/ethdb/leveldb"
+	"github.com/millicentnetwork/go-ethereum/ethdb/memorydb"
+	"github.com/millicentnetwork/go-ethereum/log"
 	"github.com/olekukonko/tablewriter"
 )
 

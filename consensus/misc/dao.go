@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Fantom-foundation/go-ethereum/core/state"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/millicentnetwork/go-ethereum/core/state"
+	"github.com/millicentnetwork/go-ethereum/core/types"
+	"github.com/millicentnetwork/go-ethereum/params"
 )
 
 var (

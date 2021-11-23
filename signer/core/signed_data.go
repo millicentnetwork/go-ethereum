@@ -30,15 +30,15 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts"
-	"github.com/Fantom-foundation/go-ethereum/accounts/abi"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/hexutil"
-	"github.com/Fantom-foundation/go-ethereum/common/math"
-	"github.com/Fantom-foundation/go-ethereum/consensus/clique"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
+	"github.com/millicentnetwork/go-ethereum/accounts"
+	"github.com/millicentnetwork/go-ethereum/accounts/abi"
+	"github.com/millicentnetwork/go-ethereum/common"
+	"github.com/millicentnetwork/go-ethereum/common/hexutil"
+	"github.com/millicentnetwork/go-ethereum/common/math"
+	"github.com/millicentnetwork/go-ethereum/consensus/clique"
+	"github.com/millicentnetwork/go-ethereum/core/types"
+	"github.com/millicentnetwork/go-ethereum/crypto"
+	"github.com/millicentnetwork/go-ethereum/rlp"
 )
 
 type SigFormat struct {
@@ -612,7 +612,7 @@ func (api *SignerAPI) EcRecover(ctx context.Context, data hexutil.Bytes, sig hex
 	// Note, the signature must conform to the secp256k1 curve R, S and V values, where
 	// the V value must be be 27 or 28 for legacy reasons.
 	//
-	// https://github.com/Fantom-foundation/go-ethereum/wiki/Management-APIs#personal_ecRecover
+	// https://github.com/millicentnetwork/go-ethereum/wiki/Management-APIs#personal_ecRecover
 	if len(sig) != 65 {
 		return common.Address{}, fmt.Errorf("signature must be 65 bytes long")
 	}

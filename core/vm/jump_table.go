@@ -19,7 +19,7 @@ package vm
 import (
 	"errors"
 
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/millicentnetwork/go-ethereum/params"
 )
 
 type (

@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/Fantom-foundation/go-ethereum/metrics"
-	"github.com/Fantom-foundation/go-ethereum/p2p"
+	"github.com/millicentnetwork/go-ethereum/metrics"
+	"github.com/millicentnetwork/go-ethereum/p2p"
 )
 
 var (

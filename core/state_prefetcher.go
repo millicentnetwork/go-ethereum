@@ -19,12 +19,12 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/consensus"
-	"github.com/Fantom-foundation/go-ethereum/core/state"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/core/vm"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/millicentnetwork/go-ethereum/common"
+	"github.com/millicentnetwork/go-ethereum/consensus"
+	"github.com/millicentnetwork/go-ethereum/core/state"
+	"github.com/millicentnetwork/go-ethereum/core/types"
+	"github.com/millicentnetwork/go-ethereum/core/vm"
+	"github.com/millicentnetwork/go-ethereum/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

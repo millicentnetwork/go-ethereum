@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts/keystore"
-	"github.com/Fantom-foundation/go-ethereum/cmd/utils"
+	"github.com/millicentnetwork/go-ethereum/accounts/keystore"
+	"github.com/millicentnetwork/go-ethereum/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

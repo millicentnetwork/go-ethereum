@@ -29,17 +29,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/mclock"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/event"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/p2p/discover"
-	"github.com/Fantom-foundation/go-ethereum/p2p/discv5"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enr"
-	"github.com/Fantom-foundation/go-ethereum/p2p/nat"
-	"github.com/Fantom-foundation/go-ethereum/p2p/netutil"
+	"github.com/millicentnetwork/go-ethereum/common"
+	"github.com/millicentnetwork/go-ethereum/common/mclock"
+	"github.com/millicentnetwork/go-ethereum/crypto"
+	"github.com/millicentnetwork/go-ethereum/event"
+	"github.com/millicentnetwork/go-ethereum/log"
+	"github.com/millicentnetwork/go-ethereum/p2p/discover"
+	"github.com/millicentnetwork/go-ethereum/p2p/discv5"
+	"github.com/millicentnetwork/go-ethereum/p2p/enode"
+	"github.com/millicentnetwork/go-ethereum/p2p/enr"
+	"github.com/millicentnetwork/go-ethereum/p2p/nat"
+	"github.com/millicentnetwork/go-ethereum/p2p/netutil"
 )
 
 const (

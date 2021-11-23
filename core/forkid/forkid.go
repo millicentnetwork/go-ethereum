@@ -26,10 +26,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/millicentnetwork/go-ethereum/common"
+	"github.com/millicentnetwork/go-ethereum/core"
+	"github.com/millicentnetwork/go-ethereum/log"
+	"github.com/millicentnetwork/go-ethereum/params"
 )
 
 var (

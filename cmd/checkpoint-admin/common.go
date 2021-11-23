@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts"
-	"github.com/Fantom-foundation/go-ethereum/accounts/abi/bind"
-	"github.com/Fantom-foundation/go-ethereum/accounts/external"
-	"github.com/Fantom-foundation/go-ethereum/cmd/utils"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/contracts/checkpointoracle"
-	"github.com/Fantom-foundation/go-ethereum/ethclient"
-	"github.com/Fantom-foundation/go-ethereum/params"
-	"github.com/Fantom-foundation/go-ethereum/rpc"
+	"github.com/millicentnetwork/go-ethereum/accounts"
+	"github.com/millicentnetwork/go-ethereum/accounts/abi/bind"
+	"github.com/millicentnetwork/go-ethereum/accounts/external"
+	"github.com/millicentnetwork/go-ethereum/cmd/utils"
+	"github.com/millicentnetwork/go-ethereum/common"
+	"github.com/millicentnetwork/go-ethereum/contracts/checkpointoracle"
+	"github.com/millicentnetwork/go-ethereum/ethclient"
+	"github.com/millicentnetwork/go-ethereum/params"
+	"github.com/millicentnetwork/go-ethereum/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

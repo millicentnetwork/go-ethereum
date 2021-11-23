@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/millicentnetwork/go-ethereum/params"
 )
 
 // EnableEIP enables the given EIP on the config.

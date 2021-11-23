@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/metrics"
+	"github.com/millicentnetwork/go-ethereum/metrics"
 )
 
 func init() {

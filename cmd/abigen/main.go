@@ -23,11 +23,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts/abi/bind"
-	"github.com/Fantom-foundation/go-ethereum/cmd/utils"
-	"github.com/Fantom-foundation/go-ethereum/common/compiler"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/log"
+	"github.com/millicentnetwork/go-ethereum/accounts/abi/bind"
+	"github.com/millicentnetwork/go-ethereum/cmd/utils"
+	"github.com/millicentnetwork/go-ethereum/common/compiler"
+	"github.com/millicentnetwork/go-ethereum/crypto"
+	"github.com/millicentnetwork/go-ethereum/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

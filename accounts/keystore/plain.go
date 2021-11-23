@@ -22,7 +22,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
+	"github.com/millicentnetwork/go-ethereum/common"
 )
 
 type keyStorePlain struct {

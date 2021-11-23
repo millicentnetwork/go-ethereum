@@ -21,17 +21,17 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/eth"
-	"github.com/Fantom-foundation/go-ethereum/ethdb"
-	"github.com/Fantom-foundation/go-ethereum/light"
-	"github.com/Fantom-foundation/go-ethereum/p2p"
-	"github.com/Fantom-foundation/go-ethereum/p2p/discv5"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/millicentnetwork/go-ethereum/common"
+	"github.com/millicentnetwork/go-ethereum/core"
+	"github.com/millicentnetwork/go-ethereum/core/rawdb"
+	"github.com/millicentnetwork/go-ethereum/core/types"
+	"github.com/millicentnetwork/go-ethereum/eth"
+	"github.com/millicentnetwork/go-ethereum/ethdb"
+	"github.com/millicentnetwork/go-ethereum/light"
+	"github.com/millicentnetwork/go-ethereum/p2p"
+	"github.com/millicentnetwork/go-ethereum/p2p/discv5"
+	"github.com/millicentnetwork/go-ethereum/p2p/enode"
+	"github.com/millicentnetwork/go-ethereum/params"
 )
 
 func errResp(code errCode, format string, v ...interface{}) error {

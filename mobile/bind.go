@@ -23,12 +23,12 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts/abi"
-	"github.com/Fantom-foundation/go-ethereum/accounts/abi/bind"
-	"github.com/Fantom-foundation/go-ethereum/accounts/keystore"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
+	"github.com/millicentnetwork/go-ethereum/accounts/abi"
+	"github.com/millicentnetwork/go-ethereum/accounts/abi/bind"
+	"github.com/millicentnetwork/go-ethereum/accounts/keystore"
+	"github.com/millicentnetwork/go-ethereum/common"
+	"github.com/millicentnetwork/go-ethereum/core/types"
+	"github.com/millicentnetwork/go-ethereum/crypto"
 )
 
 // Signer is an interface defining the callback when a contract requires a

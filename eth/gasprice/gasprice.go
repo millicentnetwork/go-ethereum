@@ -22,11 +22,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/internal/ethapi"
-	"github.com/Fantom-foundation/go-ethereum/params"
-	"github.com/Fantom-foundation/go-ethereum/rpc"
+	"github.com/millicentnetwork/go-ethereum/common"
+	"github.com/millicentnetwork/go-ethereum/core/types"
+	"github.com/millicentnetwork/go-ethereum/internal/ethapi"
+	"github.com/millicentnetwork/go-ethereum/params"
+	"github.com/millicentnetwork/go-ethereum/rpc"
 )
 
 var maxPrice = big.NewInt(500 * params.GWei)

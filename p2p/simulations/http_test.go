@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/event"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/node"
-	"github.com/Fantom-foundation/go-ethereum/p2p"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
-	"github.com/Fantom-foundation/go-ethereum/p2p/simulations/adapters"
-	"github.com/Fantom-foundation/go-ethereum/rpc"
+	"github.com/millicentnetwork/go-ethereum/event"
+	"github.com/millicentnetwork/go-ethereum/log"
+	"github.com/millicentnetwork/go-ethereum/node"
+	"github.com/millicentnetwork/go-ethereum/p2p"
+	"github.com/millicentnetwork/go-ethereum/p2p/enode"
+	"github.com/millicentnetwork/go-ethereum/p2p/simulations/adapters"
+	"github.com/millicentnetwork/go-ethereum/rpc"
 	"github.com/mattn/go-colorable"
 )
 

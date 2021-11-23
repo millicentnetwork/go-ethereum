@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	whisper "github.com/Fantom-foundation/go-ethereum/whisper/whisperv6"
+	"github.com/millicentnetwork/go-ethereum/common"
+	"github.com/millicentnetwork/go-ethereum/crypto"
+	whisper "github.com/millicentnetwork/go-ethereum/whisper/whisperv6"
 )
 
 const powRequirement = 0.00001

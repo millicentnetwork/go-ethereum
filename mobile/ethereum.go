@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	ethereum "github.com/Fantom-foundation/go-ethereum"
-	"github.com/Fantom-foundation/go-ethereum/common"
+	ethereum "github.com/millicentnetwork/go-ethereum"
+	"github.com/millicentnetwork/go-ethereum/common"
 )
 
 // Subscription represents an event subscription where events are

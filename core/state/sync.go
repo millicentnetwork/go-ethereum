@@ -19,10 +19,10 @@ package state
 import (
 	"bytes"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/ethdb"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
-	"github.com/Fantom-foundation/go-ethereum/trie"
+	"github.com/millicentnetwork/go-ethereum/common"
+	"github.com/millicentnetwork/go-ethereum/ethdb"
+	"github.com/millicentnetwork/go-ethereum/rlp"
+	"github.com/millicentnetwork/go-ethereum/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

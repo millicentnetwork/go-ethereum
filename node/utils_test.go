@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/Fantom-foundation/go-ethereum/p2p"
-	"github.com/Fantom-foundation/go-ethereum/rpc"
+	"github.com/millicentnetwork/go-ethereum/p2p"
+	"github.com/millicentnetwork/go-ethereum/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

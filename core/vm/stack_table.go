@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/millicentnetwork/go-ethereum/params"
 )
 
 func minSwapStack(n int) int {
